@@ -1,0 +1,20 @@
+{
+	"name": "portfolio-utn",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"tail": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+		"minify": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
+		"buildcss": "tailwindcss build ./src/input.css -o ./dist/output.css",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "thomaspufahl",
+	"license": "ISC",
+	"devDependencies": {
+		"tailwindcss": "^3.3.3"
+	},
+	"dependencies": {
+		"tw-elements": "^1.0.0"
+	}
+}
